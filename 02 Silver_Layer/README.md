@@ -1,3 +1,5 @@
+# 🥈 Silver Layer — Data Cleaning & Feature Standardization
+
 ### 📌 Purpose of the Silver Layer
 
 The Silver layer is responsible for transforming raw healthcare data into a clean, standardized, and analytics-ready dataset.
