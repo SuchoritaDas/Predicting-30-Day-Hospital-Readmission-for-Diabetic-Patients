@@ -1,6 +1,6 @@
 # 🥉 Bronze Layer — Raw Data Ingestion
 
-### Purpose of the Bronze Layer
+### 📌Purpose of the Bronze Layer
 
 The Bronze layer is responsible for ingesting raw data exactly as received from the source system and storing it in a reliable, queryable format.
 This layer does not perform cleaning, transformation, or feature engineering.
