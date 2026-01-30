@@ -145,8 +145,26 @@ One detailed README explaining that layer
 │
 └── README.md  ← (this file)
 
-🔍 How the Project Was Implemented (STAR – Action)
-🥉 Bronze Layer
+## 🔍 How the Project Was Implemented (STAR – Action)
+
+### 📥 Data Ingestion & Environment Setup
+
+The dataset was first downloaded as a CSV file from Kaggle and uploaded into the Databricks Free Edition workspace.
+
+To maintain proper organization and data governance:
+
+A dedicated catalog, schema, and volume were created for the project
+
+The CSV file was uploaded using the Databricks Catalog interface
+
+This allowed the data to be accessed directly within notebooks as a table source
+
+This step reflects a real-world data ingestion approach, where raw files are landed into a controlled storage layer before further processing.
+
+Once the data was available inside Databricks, the Bronze–Silver–Gold Medallion Architecture was implemented to structure the data pipeline.
+
+
+### 🥉 Bronze Layer
 
 Raw CSV data ingested into Databricks volumes
 
