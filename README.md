@@ -128,21 +128,34 @@ One Jupyter Notebook
 One detailed README explaining that layer
 
 ├── bronze/
+
 │   ├── BRONZE_LAYER.ipynb
+
 │   └── README.md
+
 │
+
 ├── silver/
+
 │   ├── SILVER_LAYER.ipynb
+
 │   └── README.md
 │
+
 ├── gold/
+
 │   ├── GOLD_LAYER.ipynb
+
 │   └── README.md
 │
+
 ├── ml_training/
+
 │   ├── ML_Training.ipynb
+
 │   └── README.md
 │
+
 └── README.md  ← (this file)
 
 ## 🔍 How the Project Was Implemented (STAR – Action)
